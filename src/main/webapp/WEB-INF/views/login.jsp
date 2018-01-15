@@ -13,7 +13,15 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<style>
-
+body {
+	background: url("/images/photo_bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	color: #666;
+}
 /* Set a style for all buttons */
 button {
     background-color: #4CAF50;
@@ -121,6 +129,7 @@ align-items:center;
 			<a href="#"><p class="small">Forgot your password?</p></a>
 		</div>
 	</div>
+	<!--  
 	<div class="container">
 	<div id="id01" class="modal">
   		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
@@ -142,6 +151,7 @@ align-items:center;
   		</form>
 	</div>
 	</div>
+	 -->
 </body>
 <script>
 // Get the modal
