@@ -25,4 +25,6 @@
 	  <mvc:resources mapping="/css/**" location="WEB-INF/resources/css/" />
 	  <mvc:resources mapping="/fonts/**" location="WEB-INF/resources/fonts/" />
 	  <mvc:resources mapping="/js/**" location="WEB-INF/resources/js/" />
+	  
+	  <mvc:resources mapping="/MenuCss/**" location="WEB-INF/resources/MenuCss/" />
 	</beans>
